@@ -1,0 +1,20 @@
+{
+  "name": "cethyworks/log-tail-bundle",
+  "description": "Prettified tail-f command",
+  "type": "symfony-bundle",
+  "require": {
+    "php": ">=5.4",
+    "symfony/console": "^2.8",
+    "symfony/http-kernel": "^2.8"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cethy",
+      "email": "cethy.hnc@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "Cethyworks\\LogTailBundle\\": "src" }
+  }
+}
